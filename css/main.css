@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+}
+
+#container {
+  margin: 2% auto;
+  }
+
+input[type=button] {
+  margin: 2%;
+  margin-top: 10%;
+  float: left;
+}
+
+#container1, #container2, #container3, #container4 {
+  margin: 2%;
+}
+
+h1, p {
+  margin: 2%;
+}
+
+@media (max-width: 768px) {
+    body { margin: 0; }
+    #container {
+      border-width: 0;
+      display: block;
+      margin: 0;
+    }
+    img {max-width: 50%;}
+}
